@@ -1,0 +1,593 @@
+<!doctype html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CliniQ — Application Features</title>
+  <link rel="icon" href="assets/images/clinicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/css/main.css">
+  <link rel="stylesheet" href="assets/css/themes.css">
+</head>
+<body>
+
+  <!-- HEADER -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <div class="brand">
+        <div class="logo-placeholder">
+          <img src="assets/images/cliniq2.png" alt="Logo">
+        </div>
+        <div class="brand-text">
+          <h1>CliniQ</h1>
+          <p>AI Powered Healthcare Companion</p>
+        </div>
+      </div>
+
+      <nav class="top-nav">
+        <a href="index.html" class="nav-link">Home</a>
+        <a href="company.html" class="nav-link">Company</a>
+        <a href="application.html" class="nav-link active">App-Features</a>
+        <a href="emergency.html" class="nav-link">Emergency</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="theme-btn" id="themeToggle" title="Switch Theme">
+          <svg viewBox="0 0 24 24"><path d="M12 2.25a.75.75 0 01.75.75v2.25a.75.75 0 01-1.5 0V3a.75.75 0 01.75-.75zM7.5 12a4.5 4.5 0 119 0 4.5 4.5 0 01-9 0zM18.894 6.166a.75.75 0 00-1.06-1.06l-1.591 1.59a.75.75 0 101.06 1.061l1.591-1.59zM21.75 12a.75.75 0 01-.75.75h-2.25a.75.75 0 010-1.5H21a.75.75 0 01.75.75zM17.834 18.894a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 10-1.061 1.06l1.59 1.591zM12 18a.75.75 0 01.75.75V21a.75.75 0 01-1.5 0v-2.25A.75.75 0 0112 18zM7.758 17.303a.75.75 0 00-1.061-1.06l-1.591 1.59a.75.75 0 001.06 1.061l1.591-1.59zM6 12a.75.75 0 01-.75.75H3a.75.75 0 010-1.5h2.25A.75.75 0 016 12zM6.697 7.757a.75.75 0 001.06-1.06l-1.59-1.591a.75.75 0 00-1.061 1.06l1.59 1.591z" /></svg>
+        </button>
+        <a href="#" class="btn" style="padding: 8px 16px; font-size: 0.85rem;">Get App</a>
+        <button class="mobile-menu-btn"><svg viewBox="0 0 24 24"><path d="M4 6h16M4 12h16M4 18h16" stroke-width="2" stroke-linecap="round"/></svg></button>
+      </div>
+    </div>
+  </header>
+
+  <!-- MOBILE MENU PANEL -->
+  <nav id="mobileNav" class="mobile-nav-panel">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="company.html" class="nav-link">Company</a>
+    <a href="application.html" class="nav-link">App-Features</a>
+    <a href="emergency.html" class="nav-link">Emergency</a>
+  </nav>
+
+  <!-- OVERLAY -->
+  <div id="navOverlay" class="nav-overlay"></div>
+
+  <main class="container">
+    <div class="page-title">
+      <h2>Application Features</h2>
+      <p>Discover the power of AI-driven healthcare in your pocket.</p>
+    </div>
+
+    <div class="features-grid">
+      
+      <!-- Feature 1: Disease Tracking -->
+      <article class="feature-card" id="disease">
+        <div class="feature-content">
+          <div class="feature-icon-box">
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 12h-4l-3 9L9 3l-3 9H2"/></svg>
+          </div>
+          <h3>Disease Tracking</h3>
+          <p>Real-time disease maps, hotspots, and alerts across Kenya. Stay informed about outbreaks in your region.</p>
+          <button class="btn ghost" data-modal="modal-disease">Explore Details</button>
+        </div>
+        <div class="feature-visual" id="visual-disease">
+          <!-- Animation Injected Here -->
+        </div>
+      </article>
+
+      <!-- Feature 2: Doctors -->
+      <article class="feature-card" id="doctors">
+        <div class="feature-content">
+          <div class="feature-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          </div>
+          <h3>Doctors Marketplace</h3>
+          <p>Browse verified specialists, view profiles, compare ratings, and book consultations directly within the app.</p>
+          <button class="btn ghost" data-modal="modal-doctors">Explore Details</button>
+        </div>
+        <div class="feature-visual" id="visual-doctors">
+          <!-- Animation Injected Here -->
+        </div>
+      </article>
+
+      <!-- Feature 3: Smart Pillbox -->
+      <article class="feature-card" id="pillbox">
+        <div class="feature-content">
+          <div class="feature-icon-box">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"/><path d="M13.73 21a2 2 0 0 1-3.46 0"/></svg>
+          </div>
+          <h3>Smart Pillbox</h3>
+          <p>Never miss a dose with intelligent reminders, adherence tracking, and missed dose notifications.</p>
+          <button class="btn ghost" data-modal="modal-pillbox">Explore Details</button>
+        </div>
+        <div class="feature-visual" id="visual-pillbox">
+          <!-- Animation Injected Here -->
+        </div>
+      </article>
+
+      <!-- Feature 4: Device Integration -->
+      <article class="feature-card" id="devices">
+        <div class="feature-content">
+          <div class="feature-icon-box">
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="6" y="2" width="12" height="20" rx="2"/><path d="M12 18h.01"/></svg>
+          </div>
+          <h3>Device Integration</h3>
+          <p>Sync with smartwatches and monitors. Track heart rate, BP, and glucose levels effortlessly.</p>
+          <button class="btn ghost" data-modal="modal-devices">Explore Details</button>
+        </div>
+        <div class="feature-visual" id="visual-devices">
+          <!-- Animation Injected Here -->
+        </div>
+      </article>
+
+      <!-- Feature 5: Consumables Marketplace -->
+      <article class="feature-card" id="consumables">
+        <div class="feature-content">
+          <div class="feature-icon-box">
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M6 2L3 6v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6l-3-4z"/><line x1="3" y1="6" x2="21" y2="6"/><path d="M16 10a4 4 0 0 1-8 0"/></svg>
+          </div>
+          <h3>Consumables Marketplace</h3>
+          <p>Vitamins, first aid, diagnostics consumables and more — sold and delivered inside the app.</p>
+          <button class="btn ghost" data-modal="modal-consumables">Explore Details</button>
+        </div>
+        <div class="feature-visual" id="visual-consumables">
+          <!-- Animation Injected Here -->
+        </div>
+      </article>
+
+      <!-- Feature 6: Clinic Tests -->
+      <article class="feature-card" id="tests">
+        <div class="feature-content">
+          <div class="feature-icon-box">
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M10 2v7.31"/><path d="M14 2v7.31"/><path d="M8.5 2h7"/><path d="M14 9.3a6.5 6.5 0 1 1-4 0"/><path d="M5.52 16h12.96"/></svg>
+          </div>
+          <h3>Clinic Test Marketplace</h3>
+          <p>Book lab tests across partner clinics and receive digital results without queuing.</p>
+          <button class="btn ghost" data-modal="modal-tests">Explore Details</button>
+        </div>
+        <div class="feature-visual" id="visual-tests">
+          <!-- Animation Injected Here (Apparatus) -->
+        </div>
+      </article>
+
+      <!-- Feature 7: Audio Guide -->
+      <article class="feature-card" id="audio">
+        <div class="feature-content">
+          <div class="feature-icon-box">
+             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M12 1a3 3 0 0 0-3 3v8a3 3 0 0 0 6 0V4a3 3 0 0 0-3-3z"/><path d="M19 10v2a7 7 0 0 1-14 0v-2"/><line x1="12" y1="19" x2="12" y2="23"/><line x1="8" y1="23" x2="16" y2="23"/></svg>
+          </div>
+          <h3>Audio Guide</h3>
+          <p>Voice-driven tips, notifications and guided flows for a hands-free health experience.</p>
+          <button class="btn ghost" data-modal="modal-audio">Explore Details</button>
+        </div>
+        <div class="feature-visual" id="visual-audio">
+           <!-- Animation Injected Here (Waves) -->
+        </div>
+      </article>
+    </div>
+  </main>
+
+  <!-- ===============================
+       FOOTER
+  ================================ -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div class="footer-col">
+        <div class="brand" style="margin-bottom: 1rem;">
+          <div class="logo-placeholder" style="width:32px; height:32px; font-size:1rem;">
+            <img src="assets/images/clinicon.png" alt="Logo">
+          </div>
+          <span style="font-weight:700;">CliniQ</span>
+        </div>
+        <p style="color:var(--text-muted); font-size:0.9rem;">
+          Building a healthier Kenya through intelligent, accessible tools.
+        </p>
+        <h4>Contact us</h4>
+        <div class="footer-links">
+          <a href="mailto:contact@cliniq.co.ke">
+            📧:contact@cliniq.co.ke
+          </a>
+          <a href="tel:+254700000000">
+            ☎:+254-7xxxxxxxx
+          </a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Product</h4>
+        <div class="footer-links">
+          <a href="application.html">Features</a>
+          <a href="emergency.html">Emergency</a>
+          <a href="application.html">For Doctors</a>
+          <a href="company.html">Pricing</a>
+        </div>
+      </div>
+      <div class="footer-col">
+        <h4>Legal & Support</h4>
+        <div class="footer-links">
+          <a href="legal/privacy.html">Privacy Policy</a>
+          <a href="legal/terms.html">Terms of Service</a>
+          <a href="company.html">Help Center</a>
+          <a href="company.html">Contact Us</a>
+        </div>
+      </div>
+      
+      <div class="footer-col">
+        <h4>Get the App</h4>
+        <div class="store-badges" style="justify-content: flex-start;">
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 46.9 126.7 89.8 126.7 19 0 27.5-13.4 50.4-13.4 24.1 0 29.5 13.4 51.5 13.4 36.3 0 65.7-83.3 84.8-119.5-30.8-14.7-56-42.3-56.2-93.2zm-63.6-157c16.3-21.8 32-52 28.5-81.7-27.4 1.4-56 16.4-74.1 38.3-15 17.6-28.7 51.9-24.9 81.3 29.7 2 54.7-18 70.5-37.9z"/></svg>
+            <div class="badge-text"><span>Download on the</span><span>App Store</span></div>
+          </a>
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 512 512"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+            <div class="badge-text"><span>Get it on</span><span>Google Play</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom container border-t border-gray-800 pt-8 flex flex-col md:flex-row justify-between items-center gap-4 text-xs text-gray-500">
+      &copy; 2025 CliniQ; AI Powered Healthcare Companion.| All rights reserved.
+      <div class="flex-col gap-4">
+        <a href="https://the-website-chi.vercel.app" target="_blank" rel="noopener noreferrer" class="text-sm font-bold hover:text-blue-400 transition-colors duration-200 flex items-center gap-1.5">
+          <img src="assets/images/icon2.png" alt="icon" class="w-4 h-4 inline-block" onerror="this.style.display='none'"> 
+          ~a-<strong>KADSA</strong>-make~
+        </a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===============================
+       MODALS
+  ================================ -->
+
+  <!-- Modal 1: Disease -->
+  <div id="modal-disease" class="modal">
+    <div class="modal-container">
+      <div class="modal-bg"></div>
+      <div class="modal-header">
+        <div class="logo-placeholder">
+          <img src="assets/images/clinicon.png" alt="Logo">
+        </div>
+        <span class="modal-title">Disease Tracking</span>
+        <button class="close-btn" data-close>&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>
+          CliniQ provides <strong>free, real-time disease intelligence</strong> for all users in Kenya.
+          This feature helps users stay informed about outbreaks, hotspots, age-specific risks and
+          emerging trends across the country.
+        </p>
+        <h3>What You Can Explore</h3>
+        <ul>
+          <li>High-quality interactive <strong>Kenya disease map</strong></li>
+          <li>Glowing, color-coded <strong>hotspot regions</strong></li>
+          <li>Filters for viewing <strong>specific diseases</strong></li>
+          <li>Trend charts showing spread patterns</li>
+        </ul>
+        <h3>Common Diseases Tracked</h3>
+        <ul>
+          <li>Malaria, Cholera, Typhoid</li>
+          <li>Flu, Dengue, Measles</li>
+          <li>RSV, Gastroenteritis</li>
+        </ul>
+        <h3>Insights Displayed</h3>
+        <ul>
+          <li>Regional heatmaps</li>
+          <li>Age-group distribution</li>
+          <li>Weekly and monthly trend lines</li>
+          <li>Cluster visualization</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p>Ready to stay ahead of health risks?</p>
+        <div class="store-badges">
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 46.9 126.7 89.8 126.7 19 0 27.5-13.4 50.4-13.4 24.1 0 29.5 13.4 51.5 13.4 36.3 0 65.7-83.3 84.8-119.5-30.8-14.7-56-42.3-56.2-93.2zm-63.6-157c16.3-21.8 32-52 28.5-81.7-27.4 1.4-56 16.4-74.1 38.3-15 17.6-28.7 51.9-24.9 81.3 29.7 2 54.7-18 70.5-37.9z"/></svg>
+            <div class="badge-text"><span>Download on</span><span>App Store</span></div>
+          </a>
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 512 512"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+            <div class="badge-text"><span>Get it on</span><span>Google Play</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 2: Doctors -->
+  <div id="modal-doctors" class="modal">
+    <div class="modal-container">
+      <div class="modal-bg"></div>
+      <div class="modal-header">
+        <div class="logo-placeholder">
+          <img src="assets/images/clinicon.png" alt="Logo">
+        </div>
+        <span class="modal-title">Doctors Marketplace</span>
+        <button class="close-btn" data-close>&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>
+          CliniQ connects users to a large network of verified doctors and specialists across Kenya.
+          The website shows a preview of how the marketplace works — bookings happen inside the app.
+        </p>
+        <h3>What You Can Explore</h3>
+        <ul>
+          <li>Detailed <strong>doctor profile cards</strong></li>
+          <li>Specialty categories for quick browsing</li>
+          <li>Experience, ratings and consultation options</li>
+        </ul>
+        <h3>Specialties Displayed</h3>
+        <ul>
+          <li>General practitioners, Pediatricians</li>
+          <li>Dermatologists, Gynecologists</li>
+          <li>Cardiologists, Psychologists</li>
+          <li>Dentists, Orthopedics</li>
+        </ul>
+        <h3>Booking Flow</h3>
+        <ol>
+          <li>Search or filter for specialists</li>
+          <li>Compare doctor profiles</li>
+          <li>Select consultation type (online/physical)</li>
+          <li>Pick date & time</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <p>Find your specialist today.</p>
+        <div class="store-badges">
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 46.9 126.7 89.8 126.7 19 0 27.5-13.4 50.4-13.4 24.1 0 29.5 13.4 51.5 13.4 36.3 0 65.7-83.3 84.8-119.5-30.8-14.7-56-42.3-56.2-93.2zm-63.6-157c16.3-21.8 32-52 28.5-81.7-27.4 1.4-56 16.4-74.1 38.3-15 17.6-28.7 51.9-24.9 81.3 29.7 2 54.7-18 70.5-37.9z"/></svg>
+            <div class="badge-text"><span>Download on</span><span>App Store</span></div>
+          </a>
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 512 512"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+            <div class="badge-text"><span>Get it on</span><span>Google Play</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 3: Pillbox -->
+  <div id="modal-pillbox" class="modal">
+    <div class="modal-container">
+      <div class="modal-bg"></div>
+      <div class="modal-header">
+        <div class="logo-placeholder">
+          <img src="assets/images/clinicon.png" alt="Logo">
+        </div>
+        <span class="modal-title">Smart Pillbox</span>
+        <button class="close-btn" data-close>&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>
+          The Smart Pillbox helps users maintain medication adherence through timely alerts
+          and automatic tracking. This is a premium feature inside CliniQ.
+        </p>
+        <h3>Key Functions</h3>
+        <ul>
+          <li>Automated medication reminders</li>
+          <li>Schedules based on dosage frequency</li>
+          <li>Tracking of missed doses</li>
+          <li>Daily adherence reports</li>
+        </ul>
+        <h3>How It Works</h3>
+        <ol>
+          <li>User enters medication details</li>
+          <li>Smart Pillbox syncs the dosing schedule</li>
+          <li>App sends reminders at the correct time</li>
+          <li>App logs adherence automatically</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <p>Never miss a dose.</p>
+        <div class="store-badges">
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 46.9 126.7 89.8 126.7 19 0 27.5-13.4 50.4-13.4 24.1 0 29.5 13.4 51.5 13.4 36.3 0 65.7-83.3 84.8-119.5-30.8-14.7-56-42.3-56.2-93.2zm-63.6-157c16.3-21.8 32-52 28.5-81.7-27.4 1.4-56 16.4-74.1 38.3-15 17.6-28.7 51.9-24.9 81.3 29.7 2 54.7-18 70.5-37.9z"/></svg>
+            <div class="badge-text"><span>Download on</span><span>App Store</span></div>
+          </a>
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 512 512"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+            <div class="badge-text"><span>Get it on</span><span>Google Play</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 4: Devices -->
+  <div id="modal-devices" class="modal">
+    <div class="modal-container">
+      <div class="modal-bg"></div>
+      <div class="modal-header">
+        <div class="logo-placeholder">
+          <img src="assets/images/clinicon.png" alt="Logo">
+        </div>
+        <span class="modal-title">Device Integration</span>
+        <button class="close-btn" data-close>&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>
+          CliniQ integrates with multiple health monitoring devices to provide
+          real-time health metrics and long-term trend analysis.
+        </p>
+        <h3>Supported Devices</h3>
+        <ul>
+          <li>Smartwatches & fitness bands</li>
+          <li>Blood pressure monitors</li>
+          <li>Blood glucose meters</li>
+          <li>Pulse oximeters</li>
+        </ul>
+        <h3>Data Synced</h3>
+        <ul>
+          <li>Heart rate & Steps</li>
+          <li>Blood pressure</li>
+          <li>Blood oxygen levels</li>
+          <li>Sleep cycles</li>
+        </ul>
+        <h3>Benefits</h3>
+        <ul>
+          <li>Detect early health abnormalities</li>
+          <li>Monitor long-term health patterns</li>
+          <li>Support doctors with historical readings</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p>Sync your health.</p>
+        <div class="store-badges">
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 46.9 126.7 89.8 126.7 19 0 27.5-13.4 50.4-13.4 24.1 0 29.5 13.4 51.5 13.4 36.3 0 65.7-83.3 84.8-119.5-30.8-14.7-56-42.3-56.2-93.2zm-63.6-157c16.3-21.8 32-52 28.5-81.7-27.4 1.4-56 16.4-74.1 38.3-15 17.6-28.7 51.9-24.9 81.3 29.7 2 54.7-18 70.5-37.9z"/></svg>
+            <div class="badge-text"><span>Download on</span><span>App Store</span></div>
+          </a>
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 512 512"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+            <div class="badge-text"><span>Get it on</span><span>Google Play</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 5: Consumables -->
+  <div id="modal-consumables" class="modal">
+    <div class="modal-container">
+      <div class="modal-bg"></div>
+      <div class="modal-header">
+        <div class="logo-placeholder">
+          <img src="assets/images/clinicon.png" alt="Logo">
+        </div>
+        <span class="modal-title">Health Consumables</span>
+        <button class="close-btn" data-close>&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>
+          CliniQ displays health essentials that users can browse before completing
+          purchases inside the app.
+        </p>
+        <h3>Categories Displayed</h3>
+        <ul>
+          <li>Vitamins & supplements</li>
+          <li>First-aid items (Bandages, Plasters)</li>
+          <li>Gloves (Latex & Nitrile)</li>
+          <li>Face masks & PPE</li>
+          <li>Diagnostics consumables</li>
+          <li>Sanitizers & hygiene items</li>
+        </ul>
+        <h3>Benefits</h3>
+        <ul>
+          <li>Easy browsing</li>
+          <li>Compare items quickly</li>
+          <li>Discover health bundles</li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p>Shop essentials in-app.</p>
+        <div class="store-badges">
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 46.9 126.7 89.8 126.7 19 0 27.5-13.4 50.4-13.4 24.1 0 29.5 13.4 51.5 13.4 36.3 0 65.7-83.3 84.8-119.5-30.8-14.7-56-42.3-56.2-93.2zm-63.6-157c16.3-21.8 32-52 28.5-81.7-27.4 1.4-56 16.4-74.1 38.3-15 17.6-28.7 51.9-24.9 81.3 29.7 2 54.7-18 70.5-37.9z"/></svg>
+            <div class="badge-text"><span>Download on</span><span>App Store</span></div>
+          </a>
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 512 512"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+            <div class="badge-text"><span>Get it on</span><span>Google Play</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 6: Tests -->
+  <div id="modal-tests" class="modal">
+    <div class="modal-container">
+      <div class="modal-bg"></div>
+      <div class="modal-header">
+        <div class="logo-placeholder">
+          <img src="assets/images/clinicon.png" alt="Logo">
+        </div>
+        <span class="modal-title">Clinic Tests</span>
+        <button class="close-btn" data-close>&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>
+          CliniQ helps users explore clinic test services available nationwide.
+          Bookings and results are managed inside the app.
+        </p>
+        <h3>Test Types Displayed</h3>
+        <ul>
+          <li>Complete blood count (CBC)</li>
+          <li>Malaria, Typhoid, Urinalysis</li>
+          <li>Chemistry panels</li>
+          <li>Ultrasound & X-ray</li>
+        </ul>
+        <h3>How It Works (Inside App)</h3>
+        <ol>
+          <li>Select test from the list</li>
+          <li>Choose a partner clinic</li>
+          <li>Pick an appointment time</li>
+          <li>Arrive without queuing</li>
+          <li>Receive digital results</li>
+        </ol>
+      </div>
+      <div class="modal-footer">
+        <p>Book tests easily.</p>
+        <div class="store-badges">
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 46.9 126.7 89.8 126.7 19 0 27.5-13.4 50.4-13.4 24.1 0 29.5 13.4 51.5 13.4 36.3 0 65.7-83.3 84.8-119.5-30.8-14.7-56-42.3-56.2-93.2zm-63.6-157c16.3-21.8 32-52 28.5-81.7-27.4 1.4-56 16.4-74.1 38.3-15 17.6-28.7 51.9-24.9 81.3 29.7 2 54.7-18 70.5-37.9z"/></svg>
+            <div class="badge-text"><span>Download on</span><span>App Store</span></div>
+          </a>
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 512 512"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+            <div class="badge-text"><span>Get it on</span><span>Google Play</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal 7: Audio -->
+  <div id="modal-audio" class="modal">
+    <div class="modal-container">
+      <div class="modal-bg"></div>
+      <div class="modal-header">
+        <div class="logo-placeholder">
+          <img src="assets/images/clinicon.png" alt="Logo">
+        </div>
+        <span class="modal-title">Audio Guide</span>
+        <button class="close-btn" data-close>&times;</button>
+      </div>
+      <div class="modal-body">
+        <p>
+          The CliniQ voice assistant gives users spoken updates, guidance and alerts,
+          creating a hands-free, accessible experience.
+        </p>
+        <h3>What the Assistant Does</h3>
+        <ul>
+          <li>Speaks disease alerts as they happen</li>
+          <li>Announces medication reminders</li>
+          <li>Reads upcoming doctor appointments</li>
+          <li>Provides wellness and safety tips</li>
+        </ul>
+        <h3>Example Voice Prompts</h3>
+        <ul>
+          <li><em>“Good morning. You have a dose scheduled at 8AM.”</em></li>
+          <li><em>“Flu is rising in your area — consider wearing a mask.”</em></li>
+        </ul>
+      </div>
+      <div class="modal-footer">
+        <p>Hands-free health.</p>
+        <div class="store-badges">
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 384 512"><path d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 46.9 126.7 89.8 126.7 19 0 27.5-13.4 50.4-13.4 24.1 0 29.5 13.4 51.5 13.4 36.3 0 65.7-83.3 84.8-119.5-30.8-14.7-56-42.3-56.2-93.2zm-63.6-157c16.3-21.8 32-52 28.5-81.7-27.4 1.4-56 16.4-74.1 38.3-15 17.6-28.7 51.9-24.9 81.3 29.7 2 54.7-18 70.5-37.9z"/></svg>
+            <div class="badge-text"><span>Download on</span><span>App Store</span></div>
+          </a>
+          <a href="#" class="store-badge">
+            <svg viewBox="0 0 512 512"><path d="M325.3 234.3L104.6 13l280.8 161.2-60.1 60.1zM47 0C34 6.8 25.3 19.2 25.3 35.3v441.3c0 16.1 8.7 28.5 21.7 35.3l256.6-256L47 0zm425.2 225.6l-58.9-34.1-65.7 64.5 65.7 64.5 60.1-34.1c18-14.3 18-46.5-1.2-60.8zM104.6 499l280.8-161.2-60.1-60.1L104.6 499z"/></svg>
+            <div class="badge-text"><span>Get it on</span><span>Google Play</span></div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/js/modals.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

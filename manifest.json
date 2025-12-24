@@ -1,0 +1,23 @@
+{
+  "name": "Clini-Q: Health-care Companion",
+  "short_name": "CLINI-Q",
+  "description": "Kenyan-centered health-tech platform focused on delivering preventative, timely and human-centered healthcare experiences",
+  "start_url": "/index.html",
+  "display": "standalone",
+  "background_color": "#00050b",
+  "theme_color": "#070541",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "images/cliicon.png",
+      "sizes": "1024x1024",
+      "type": "image/png"
+    },
+
+    {
+      "src": "images/clinicon1.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    }
+  ]
+}
