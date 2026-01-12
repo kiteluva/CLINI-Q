@@ -2,7 +2,7 @@
   "name": "Clini-Q: Health-care Companion",
   "short_name": "CLINI-Q",
   "description": "Kenyan-centered health-tech platform focused on delivering preventative, timely and human-centered healthcare experiences",
-  "start_url": "https://clini-q-sigma.vercel.app",
+  "start_url": "/index.html",
   "display": "standalone",
   "background_color": "#00050b",
   "theme_color": "#070541",
@@ -21,4 +21,3 @@
     }
   ]
 }
-
